@@ -1,0 +1,28 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+  A10000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1600;}; buildConfigurationList = A10000000000000000000008; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = A10000000000000000000002; productRefGroup = A10000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000005,);};
+  A10000000000000000000002 = {isa = PBXGroup; children = (A10000000000000000000003, A10000000000000000000004,); sourceTree = "<group>";};
+  A10000000000000000000003 /* Sources */ = {isa = PBXGroup; path = MTFileManager; sourceTree = "<group>"; children = (A10000000000000000000009, A1000000000000000000000A,);};
+  A10000000000000000000004 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000006,); name = Products; sourceTree = "<group>";};
+  A10000000000000000000005 /* MTFileManager */ = {isa = PBXNativeTarget; buildConfigurationList = A1000000000000000000000B; buildPhases = (A1000000000000000000000C, A1000000000000000000000D, A1000000000000000000000E,); buildRules = (); dependencies = (); name = MTFileManager; productName = MTFileManager; productReference = A10000000000000000000006; productType = "com.apple.product-type.application";};
+  A10000000000000000000006 /* MTFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTFileManager.app; sourceTree = BUILT_PRODUCTS_DIR;};
+  A10000000000000000000007 = {isa = XCConfigurationList; buildConfigurations = (A1000000000000000000000F, A10000000000000000000010,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  A10000000000000000000008 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000011, A10000000000000000000012,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  A10000000000000000000009 /* MTFileManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTFileManagerApp.swift; sourceTree = "<group>";};
+  A1000000000000000000000A /* FileBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserView.swift; sourceTree = "<group>";};
+  A1000000000000000000000C /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000013, A10000000000000000000014,); runOnlyForDeploymentPostprocessing = 0;};
+  A1000000000000000000000D /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  A1000000000000000000000E /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  A10000000000000000000013 = {isa = PBXBuildFile; fileRef = A10000000000000000000009;};
+  A10000000000000000000014 = {isa = PBXBuildFile; fileRef = A1000000000000000000000A;};
+  A1000000000000000000000F /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Debug;};
+  A10000000000000000000010 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Release;};
+  A10000000000000000000011 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "MT File Manager"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; PRODUCT_BUNDLE_IDENTIFIER = com.em.mtfilemanager; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug;};
+  A10000000000000000000012 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "MT File Manager"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; PRODUCT_BUNDLE_IDENTIFIER = com.em.mtfilemanager; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release;};
+ };
+ rootObject = A10000000000000000000001;
+}
